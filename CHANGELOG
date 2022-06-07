@@ -1,0 +1,19 @@
+v1.0
+-Inital Release
+-Added FlashHeadlights Action, with configurable length and numbers
+-Added ToggleHeadlights Action
+
+v1.1
+-Fixed Enabled checkbox not being changeable (you could not turn it off)
+-Added Tooltips explaining each Setting and what it does
+-Added Revert Button to Revert changes that have not been applied
+-Added Support for rFactor 2 Auto Headlight Aid
+-Added FlashMessage Action, which flashes a configurable Text message in Morse Code
+-Changed Warning Messages to be less Autistic and less Obnoxious
+-Changed Default Flashlength from 250ms to 200ms (this only applies to fresh installs)
+  
+v2.0  
+-Fixed Compatibility with SimHub v7.4.7 and beyond (for now). This is due to SimHub changing the Keyboard Emulator libary this plugin uses too  
+-Added Message for when this problem arrises in the future  
+-Fixed bug with rf2-Autoheadlight support soft locking SimHub when triggering the Flash Action while rf2 is not running  
+-rf2-Autoheadlight support is now default for new installs  
